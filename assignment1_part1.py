@@ -1,10 +1,13 @@
 
-def list_divide(numbers, divide):
+def list_divide(numbers, divide=2):
     """
     The function returns the number of elements in the numbers list that are divisibleby divide
     """
-    print("x")
-MAKE ANY CHANGES YOU WANT
+    return numbers/divide
+
+    pass
+class ListDivideException(Exception):
+
 def test_list_divide():
     """
     Test listDivide
@@ -15,6 +18,5 @@ def test_list_divide():
     assert listDivide([]) == 0
     assert listDivide([1,2,3,4,5], 1) == 5
     
-if __name__ == "__main__":
-    testListDivide()
+
 
