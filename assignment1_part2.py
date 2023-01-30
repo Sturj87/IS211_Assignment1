@@ -6,9 +6,8 @@ class Book:
         self.author = author
         self.title = title
 
-    def display(Book):
-        print(f"{Book.title}, written by {Book.author}")
-
+    def display(self):
+        print(f"{self.title}, written by {self.author}")
 
 Book_1 = Book("J. K. Rowling", "Harry Potter and the Goblet of Fire")
 Book_2 = Book("Walter Scott", "Ivanhoe: A Romance")
